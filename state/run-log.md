@@ -1,3 +1,4 @@
 # Run log (newest first)
 
+- 2026-11-17 (run for publish day 2026-11-18): "This Chicken Lived 18 Months Without a Head" (Mike, Fruita 1945-47), 16.1 s loop, uploaded private as KT-VEbhny-s, publishAt 2026-11-18T14:00Z (today's 14:00Z had passed and already had a Short). Facts: Guinness WR 2024 + Scientific American. Media: media/2026-11-17-headless-chicken.mp4. Notes: skill lives at the synced path (/root/.claude/skills/synced/.../faceless-shorts), not /mnt/skills/plugins; add_repo tool not offered but repo was pre-cloned; huggingface.co blocked by egress policy so Whisper could not load and words.py used its fallback (words spread inside exact Kokoro line times) - QA sheet looked in sync. Video duration showed P0D right after upload (still processing). Not Monday, learnings not rewritten.
 - 2026-11-18: pipeline set up by hand. Last manual upload: x_A9aQBWRIY (lightning, 15 s loop format).
