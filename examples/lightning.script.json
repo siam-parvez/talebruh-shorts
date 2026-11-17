@@ -1,0 +1,17 @@
+{
+  "title": "Struck by Lightning 7 Times",
+  "voice": "am_michael", "speed": 1.1, "lead": 0.15, "outro": 0.4, "gap": 0.15, "music": "tension",
+  "sources": [
+    "Guinness World Records, 'Incredible story of man who survived being struck by lightning SEVEN times' (2023): Roy Sullivan, Shenandoah National Park ranger; strikes 1942-1977; lost big toenail (1942), eyebrows burned (1969), hair set on fire (1972, 1973, 1976)",
+    "Wikipedia, 'Roy Sullivan': Guinness recognises him as struck by lightning more recorded times than any other human; carried a can of water in case his hair was set on fire; was said to have been avoided by people in his later years"
+  ],
+  "lines": [
+    { "text": "This man was struck by lightning seven times.", "caps": "Struck by *lightning | *7 times." },
+    { "text": "And he survived every single one.", "caps": "And *survived | every *one." },
+    { "text": "It burned off his toenail, his eyebrows,", "caps": "It burned his *toenail, | his *eyebrows," },
+    { "text": "and set his hair on fire.", "caps": "and set his *hair | on *fire." },
+    { "text": "So he kept a can of water in his truck.", "caps": "So he kept *water | in his *truck." },
+    { "text": "People started avoiding him,", "caps": "People started | *avoiding him," },
+    { "text": "because nobody wanted to stand next to", "caps": "nobody wanted | to stand *next to...", "gap": 0.0 }
+  ]
+}
