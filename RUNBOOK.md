@@ -68,7 +68,8 @@ Channel: Tale Bruh (@talebruh), channel id UCnddd50d5qBJ30dbvWKID6A. English, US
 2. Upload with Zapier (`inspect_zapier_actions` first; `selected_api: YouTubeV4CLIAPI`, `tool_name: youtube_upload_video`):
    title (under 60 chars, the hook, no lies), description = one line + a question that invites comments + `#shorts`,
    5-8 tags ending with `Tale Bruh`, `category_id "27"`, `privacy_status "private"`,
-   `publish_at "<today>T14:00:00Z"` (8 PM Dhaka / 9 AM New York; if that time has passed, use tomorrow 14:00Z),
+   `publish_at "<day>T14:00:00Z"` (8 PM Dhaka / 9 AM New York) where <day> is the first day, from today on, whose 14:00Z
+   is still in the future AND that has no row yet in `state/published.md` (one Short per publish day),
    `made_for_kids "false"`, `notify_subscribers "true"`, `default_language "en"`, `default_audio_language "en"`,
    `embeddable "true"`, `license "youtube"`.
 3. If Zapier says "throttled": wait 10 min, try once more. If it still fails, write it in `state/run-log.md` (with the
