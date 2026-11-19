@@ -1,8 +1,9 @@
-# Published Shorts (views / APV % filled from Analytics; 2026-11-19 snapshot, last 28 days)
+# Published Shorts (views / APV % filled from Analytics; 2026-11-19 snapshot, last 28 days; a date without a time = 14:00 UTC)
 
 | date | id | title | length | views | APV % |
 |---|---|---|---|---|---|
-| 2026-11-20 | y1mDmwsCwdY | She Fell 2 Miles Into the Amazon and Walked Out | 19 s | scheduled | - |
+| 2026-11-20 02:00 | SdIcMztzgRM | Up to 400 People Danced and Couldn't Stop | 18 s | scheduled | - |
+| 2026-11-20 14:00 | y1mDmwsCwdY | She Fell 2 Miles Into the Amazon and Walked Out | 19 s | scheduled | - |
 | 2026-11-19 | hJA6CRwviqU | She Fell 33,000 Feet Without a Parachute | 18 s | scheduled | - |
 | 2026-11-18 | KT-VEbhny-s | This Chicken Lived 18 Months Without a Head | 16 s | scheduled | - |
 | 2026-11-17 | x_A9aQBWRIY | He Was Struck by Lightning 7 Times | 15 s | new | new |

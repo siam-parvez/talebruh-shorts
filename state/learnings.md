@@ -6,6 +6,7 @@ Data: YouTube Analytics, 23 Shorts, Nov 6-17 2026.
 - Our APV was 40-70% on 30-58 s Shorts. Best: "Survived BOTH atomic bombs" 82% (29 s, hook = whole story);
   "Alaska for 2 cents" 131% (people rewatched). Worst: slow openings with a date/place (dead jockey 44%, ketchup 46%).
 - Survival / record / "wait, what?" stories hold best. Country/anthem/Bangladesh history did ok in views but not APV.
-- Posting 11 in one night split the audience (several got 1-20 views). One per day only.
+- Posting 11 in one night split the audience (several got 1-20 views). Owner decision 2026-11-19: two per day,
+  12 h apart (02:00Z and 14:00Z). Watch whether the 02:00Z slot gets fewer views or lowers the other Short's views.
 - New format from 2026-11-17: 13-18 s, hook in line 1, a fact every 2 s, unfinished last line that loops into line 1,
   comment question in the description. First test: "He Was Struck by Lightning 7 Times" (x_A9aQBWRIY).

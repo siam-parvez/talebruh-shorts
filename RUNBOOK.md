@@ -1,11 +1,15 @@
-# Tale Bruh daily Short: runbook
+# Tale Bruh daily Shorts: runbook
 
-A scheduled session runs this once a day with nobody watching. Follow every step. Never stop to ask a question: if
+A scheduled session runs this once a day with nobody watching and makes **two Shorts per run** (owner decision
+2026-11-19: two publish slots per day, 02:00Z and 14:00Z). Do steps 1-5 for the first Short, then steps 1-5 again
+for the second (new topic, new project slug), then 6-7 once. Follow every step. Never stop to ask a question: if
 something is unclear, take the safest choice, write it in `state/run-log.md`, and carry on. If a step cannot be done
 (tool missing, render broken, upload refused), do not publish anything half-done: write what failed in
 `state/run-log.md`, commit, push, and end the run.
 
 Channel: Tale Bruh (@talebruh), channel id UCnddd50d5qBJ30dbvWKID6A. English, US/world audience.
+Zapier has two YouTube connections: before the first upload, GET `channels?part=id&mine=true` and check the id is the
+one above. If it is not, do not upload; log it.
 
 ## 0. Setup (about 3 min)
 1. This repo is checked out. Tools: `bash /mnt/skills/plugins/faceless-shorts/scripts/setup.sh` (installs the Kokoro
@@ -24,6 +28,9 @@ Channel: Tale Bruh (@talebruh), channel id UCnddd50d5qBJ30dbvWKID6A. English, US
 - **Verify the facts** with WebSearch (Guinness, Wikipedia, Britannica, major outlets). Every number on screen must be
   in a source. If sources disagree, use the safer wording ("about", "legend says"). If it can't be verified, mark it
   `[x] skipped: unverifiable` and take the next one.
+- Also skip (`[x] skipped: <why>`) topics where the hero framing would hide harm to victims (e.g. Hiroo Onoda: he
+  allegedly killed up to 30 civilians) or that invite copying dangerous acts (e.g. eating metal).
+- Two Shorts from one run should not share a theme (e.g. not two plane-fall stories).
 
 ## 2. Script (the format that works here)
 - **13-18 s total. 6-8 lines, 45-60 words.** Voice `am_michael`, speed 1.1, `lead 0.15`, `gap 0.15`, `outro 0.4`.
@@ -59,17 +66,20 @@ Channel: Tale Bruh (@talebruh), channel id UCnddd50d5qBJ30dbvWKID6A. English, US
    `ffmpeg -i renders/short.mp4 -vf "fps=2,scale=150:266,tile=16x3" review/final.jpg` and Read it.
 
 ## 5. Publish
-1. Host the file where Zapier can download it, on the `media` branch (one file only, history replaced each time):
+1. Host the file where Zapier can download it, on the `media` branch (one file only, history replaced each time;
+   finish the first Short's upload before replacing the file with the second):
    `git fetch origin`, `git switch --orphan media-tmp`, `git rm -rf --cached . -q`, `mkdir -p media`,
    copy the mp4 to `media/<YYYY-MM-DD>-<slug>.mp4`, `git add media/<file>`, commit, `git push -f origin media-tmp:media`,
    then `git switch -f main`.
    URL: `https://raw.githubusercontent.com/siam-parvez/talebruh-shorts/media/media/<file>.mp4`.
    Check with `curl -sIL <url>` (status 200, right size).
 2. Upload with Zapier (`inspect_zapier_actions` first; `selected_api: YouTubeV4CLIAPI`, `tool_name: youtube_upload_video`):
-   title (under 60 chars, the hook, no lies), description = one line + a question that invites comments + `#shorts`,
+   title (under 60 chars, the hook, no lies; keep the script's hedges, e.g. "Up to 400" not "400"), description = one line + a question that invites comments + `#shorts`,
    5-8 tags ending with `Tale Bruh`, `category_id "27"`, `privacy_status "private"`,
-   `publish_at "<day>T14:00:00Z"` (8 PM Dhaka / 9 AM New York) where <day> is the first day, from today on, whose 14:00Z
-   is still in the future AND that has no row yet in `state/published.md` (one Short per publish day),
+   `publish_at "<day>T<slot>:00:00Z"` where the slots are 02 (8 AM Dhaka / 9 PM New York) and 14 (8 PM Dhaka /
+   9 AM New York). Take the earliest (day, slot), from now on, that is still in the future AND has no row yet in
+   `state/published.md` (a row whose date has no time means 14:00); the second Short takes the next free slot after
+   that. Two Shorts per publish day at most, one per slot,
    `made_for_kids "false"`, `notify_subscribers "true"`, `default_language "en"`, `default_audio_language "en"`,
    `embeddable "true"`, `license "youtube"`.
 3. If Zapier says "throttled": wait 10 min, try once more. If it still fails, write it in `state/run-log.md` (with the
@@ -85,11 +95,11 @@ Channel: Tale Bruh (@talebruh), channel id UCnddd50d5qBJ30dbvWKID6A. English, US
   `averageViewPercentage` and views, and what to do more or less of. Reorder `state/topics.md` to match.
 
 ## 7. Record and push
-- Add a row to `state/published.md`, tick the topic in `state/topics.md`, add a dated line to `state/run-log.md`.
-- `git add state && git commit -m "Daily short <date>: <title>" && git push origin main`.
+- Add a row per Short to `state/published.md` (date as `YYYY-MM-DD HH:MM` in UTC), tick the topic in `state/topics.md`, add a dated line to `state/run-log.md`.
+- `git add state && git commit -m "Daily shorts <date>: <title 1> / <title 2>" && git push origin main`.
 
 ## Never
 - Never publish unverified facts, real people's photos, gore, or anything mocking victims.
 - Never reuse another channel's script or footage. Stories are public history; scripts are ours.
-- Never post more than one Short per day. Never change or delete older videos.
+- Never post more than two Shorts per day (one per slot). Never change or delete older videos.
 - Never put secrets, tokens or the owner's email in this repo (it is public).
