@@ -2,7 +2,7 @@
 
 - [x] Mike the headless chicken lived 18 months without a head (Colorado, 1945-47)
 - [x] Vesna Vulovic fell about 33,000 ft without a parachute and survived (1972, Guinness). Say "Vesna Vulovich".
-- [ ] Juliane Koepcke fell 2 miles into the Amazon and walked out alone after 11 days (1971). Say "Yoo-lee-ah-neh Kup-keh".
+- [x] Juliane Koepcke fell 2 miles into the Amazon and walked out alone after 11 days (1971). Say "Yoo-lee-ah-neh Kup-keh".
 - [ ] Hiroo Onoda kept fighting WWII in the jungle for 29 years because nobody told him it ended
 - [ ] A man ate an entire airplane (Michel Lotito, Cessna 150). Say "Mee-shell Lo-tee-toe".
 - [ ] Phineas Gage: an iron rod went through his head and he walked away (1848)
