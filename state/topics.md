@@ -5,7 +5,7 @@
 - [x] Juliane Koepcke fell 2 miles into the Amazon and walked out alone after 11 days (1971). Say "Yoo-lee-ah-neh Kup-keh".
 - [x] skipped: hero framing would hide that he allegedly killed up to 30 civilians. Hiroo Onoda kept fighting WWII in the jungle for 29 years because nobody told him it ended
 - [x] skipped: invites copying a dangerous act (eating metal). A man ate an entire airplane (Michel Lotito, Cessna 150). Say "Mee-shell Lo-tee-toe".
-- [ ] Phineas Gage: an iron rod went through his head and he walked away (1848)
+- [x] Phineas Gage: an iron rod went through his head and he walked away (1848)
 - [x] The dancing plague of 1518: hundreds of people danced for days and could not stop
 - [ ] Randy Gardner stayed awake for 11 days straight (1964 science-fair record)
 - [ ] John Lee: they tried to hang him 3 times and the trapdoor failed every time (1885), so he lived
