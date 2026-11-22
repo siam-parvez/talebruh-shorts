@@ -18,7 +18,7 @@
 - [ ] Lost at sea 438 days: Jose Salvador Alvarenga drifted across the Pacific (2012-14). Say "Al-vah-reng-ah"
 
 ## Lane 2: Money / scams / heists
-- [ ] Gregor MacGregor sold land in a country that did not exist (Poyais, 1820s)
+- [x] Gregor MacGregor sold land in a country that did not exist (Poyais, 1820s)
 - [ ] Antwerp diamond heist (2003): vault with 10 layers of security, emptied over a weekend
 - [ ] Gardner Museum heist (1990): about $500M of art stolen in 81 minutes, still missing, $10M reward
 - [ ] Mona Lisa stolen (1911): it only became the world's most famous painting after it vanished
