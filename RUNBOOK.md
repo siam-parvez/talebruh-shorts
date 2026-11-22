@@ -11,9 +11,28 @@ Channel: Tale Bruh (@talebruh), channel id UCnddd50d5qBJ30dbvWKID6A. English, US
 Zapier has two YouTube connections: before the first upload, GET `channels?part=id&mine=true` and check the id is the
 one above. If it is not, do not upload; log it.
 
+## Lanes and style test (owner decision 2026-11-22: "we need more views")
+Every Short stalls near 1k views even at ~90% APV, with 0 comments. For the next 2 weeks we test new topics and a
+second style. Pick by the publish date (UTC) of the Short you are making:
+- **Topic lane** = day-of-month mod 3: **0 = Dark mysteries** (unsolved cases, eerie disappearances, strange signals;
+  hook = the unexplained fact, last line loops; description asks "What do YOU think happened?"),
+  **1 = "Would you survive?"** (second person: "You have 15 minutes under the snow." Real survival facts and correct
+  safety steps from Red Cross / NOAA / NPS / CDC; description asks "What would you do first?"),
+  **2 = Money / scams / heists** (biggest heists, con artists, absurd prices; description asks "Would you have
+  fallen for it?"). Use the first unchecked topic of that lane in `state/topics.md`; if the lane is empty, research 5.
+- **Style** = even day-of-month: `stick-story` (black stick people, big white eyes, flat rooms; use the night rooms for
+  mysteries), odd: `paper-atlas` (cut paper, as before). Do not use `night-file` / `deep-dive` / `tall-tale`: their
+  3D renderer hangs in the cloud sandbox (tested 2026-11-22).
+- For stick-story: `bash $S/new_video.sh stick-story <slug>`, read its `STYLE.md` and `example/` first, copy
+  `engine/extras.js` only for paper-atlas. Same loop rules: 13-18 s, hook first, unfinished last line, no end fade
+  (find the fade line in `src/main.js` and set it to 1; check with grep).
+- Log the lane and style in the `published.md` title cell as a tag, e.g. `[mystery/stick]`. On Mondays compare 7-day
+  views and APV per style and per lane in `learnings.md`; after 2 weeks keep the winners.
+
 ## 0. Setup (about 3 min)
 1. This repo is checked out. Tools: `bash /mnt/skills/plugins/faceless-shorts/scripts/setup.sh` (installs the Kokoro
-   voice into `~/.faceless-shorts`). `S=/mnt/skills/plugins/faceless-shorts/scripts`.
+   voice into `~/.faceless-shorts`). `S=/mnt/skills/plugins/faceless-shorts/scripts`; if that path is missing use
+   `S=$(ls -d /root/.claude/skills/synced/*/faceless-shorts)/scripts` (where it has been on every run so far).
 2. Make the project (slug = short-kebab-name): `bash $S/new_video.sh paper-atlas <slug>`, then
    `cd ~/faceless-shorts/<slug> && cp <repo>/engine/extras.js src/ && mv src/shots.js /tmp/` and turn off the end fade
    (the Short must loop): `sed -i 's#const fade = Math.min(clamp(t / 0.25), clamp((T.dur - t) / 0.35));#const fade = 1;#' src/main.js`

@@ -1,4 +1,31 @@
-# Topic queue (top = next). Verify every fact before use. Tick [x] when published or skipped.
+# Topic queue (top = next in each lane). Verify every fact before use. Tick [x] when published or skipped.
+# Lanes from 2026-11-22 (see RUNBOOK 'Lanes and style test'). Candidates are unverified until a run checks them.
+
+## Lane 0: Dark mysteries
+- [ ] Mary Celeste (1872): a ship found sailing on its own, cargo intact, all 10 people gone, never found
+- [ ] The Wow! signal (1977): a 72-second radio signal from space, never heard again
+- [ ] Max Headroom hijack (1987, Chicago): someone took over two TV stations' broadcasts; never caught
+- [ ] Roanoke (1590): a whole colony vanished; the only clue was the word CROATOAN carved on a post
+- [ ] Voynich manuscript: a 600-year-old book in a writing nobody can read
+- [ ] Dyatlov Pass (1959): nine hikers cut their tent open from inside and fled into the snow (be respectful: they died; mention the 2021 avalanche study)
+
+## Lane 1: Would you survive?
+- [ ] Buried in an avalanche: you have about 15 minutes before survival odds collapse (what rescuers say to do)
+- [ ] Caught in a rip current: don't swim to shore, swim parallel (NOAA)
+- [ ] Fell through ice: the 1-10-1 rule for cold water (1 min to control breathing, 10 min of movement, 1 hour)
+- [ ] Quicksand: you can't actually sink all the way (Nature 2005 study); how to get out
+- [ ] Lightning outside: why you should not shelter under a tree (NOAA)
+- [ ] Lost at sea 438 days: Jose Salvador Alvarenga drifted across the Pacific (2012-14). Say "Al-vah-reng-ah"
+
+## Lane 2: Money / scams / heists
+- [ ] Gregor MacGregor sold land in a country that did not exist (Poyais, 1820s)
+- [ ] Antwerp diamond heist (2003): vault with 10 layers of security, emptied over a weekend
+- [ ] Gardner Museum heist (1990): about $500M of art stolen in 81 minutes, still missing, $10M reward
+- [ ] Mona Lisa stolen (1911): it only became the world's most famous painting after it vanished
+- [ ] 10,000 bitcoin for two pizzas (2010)
+- [ ] Pepsi points for a fighter jet (Leonard v. PepsiCo, 1996)
+
+## Classic survival / records (paper-atlas fallback when a lane is empty)
 
 - [x] Mike the headless chicken lived 18 months without a head (Colorado, 1945-47)
 - [x] Vesna Vulovic fell about 33,000 ft without a parachute and survived (1972, Guinness). Say "Vesna Vulovich".
