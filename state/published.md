@@ -2,7 +2,7 @@
 
 | date | id | title | length | views | APV % |
 |---|---|---|---|---|---|
-| 2026-11-23 14:00 | yuefQSUOXr8 | He Sold Land in a Country That Didn't Exist [money/paper] | 18 s | scheduled | - |
+| 2026-11-23 14:00 | CU-uj2TLDLw | He Sold Land in a Country That Didn't Exist [money/paper] | 18 s | scheduled | - |
 | 2026-11-22 14:00 | CUZPnGxX4qc | Her Body Cooled to 57°F and She Survived | 18 s | scheduled | - |
 | 2026-11-21 14:00 | w4kgGB5NQeY | An Iron Rod Went Through His Head and He Lived | 17 s | scheduled | - |
 | 2026-11-20 02:00 | SdIcMztzgRM | Up to 400 People Danced and Couldn't Stop | 18 s | 59 | 92 |

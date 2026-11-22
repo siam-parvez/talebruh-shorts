@@ -76,6 +76,10 @@ second style. Pick by the publish date (UTC) of the Short you are making:
    - Something changes on screen at least every 1.5 s. Each key word gets a visual hit 0.1-0.4 s before it
      (`words.json` times are estimates, so pull hits earlier).
    - The last shot ends on the same framing as shot 1 so the loop is seamless. `src/main.js` has no fade (keep it).
+   - **Call to action (owner decision 2026-11-22):** in the last shot, a `LIKE · SHARE · SUBSCRIBE` sticker pops in at
+     ~0.15 s (`K.slip('LIKE · SHARE · SUBSCRIBE', 540, 1320, s, 0.02, 66)`, or the stick-story equivalent) with a soft
+     `pop` cue, and shrinks away over the last ~0.45 s so the final frame still matches frame 1. On screen only: do NOT
+     say it in the voice (a spoken CTA breaks the loop). Keep it clear of the captions (nothing below y 1500).
 3. `node tools/capture.mjs check`, `node tools/capture.mjs cues`, `$S/py tools/mix.py .` (music `tension` or `bed`).
 4. QA: `node tools/capture.mjs sheet review/all.jpg 0.5 8`, then **Read the image** and check: hook visible at 0.25 s,
    nothing covering captions, no empty or black frames, visuals match the words, the end frame matches the first.
@@ -93,7 +97,8 @@ second style. Pick by the publish date (UTC) of the Short you are making:
    URL: `https://raw.githubusercontent.com/siam-parvez/talebruh-shorts/media/media/<file>.mp4`.
    Check with `curl -sIL <url>` (status 200, right size).
 2. Upload with Zapier (`inspect_zapier_actions` first; `selected_api: YouTubeV4CLIAPI`, `tool_name: youtube_upload_video`):
-   title (under 60 chars, the hook, no lies; keep the script's hedges, e.g. "Up to 400" not "400"), description = one line + a question that invites comments + `#shorts`,
+   title (under 60 chars, the hook, no lies; keep the script's hedges, e.g. "Up to 400" not "400"), description = one line + a question that invites comments + a new line
+   `Like, share & subscribe for a new true story every day.` + `#shorts`,
    5-8 tags ending with `Tale Bruh`, `category_id "27"`, `privacy_status "private"`,
    `publish_at "<day>T<slot>:00:00Z"` where the slots are 02 (8 AM Dhaka / 9 PM New York) and 14 (8 PM Dhaka /
    9 AM New York). Take the earliest (day, slot), from now on, that is still in the future AND has no row yet in
