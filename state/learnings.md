@@ -1,17 +1,28 @@
-# What works on Tale Bruh (updated 2026-11-18)
+# What works on Tale Bruh (updated Monday 2026-11-23)
 
-Data: YouTube Analytics, 23 Shorts, Nov 6-17 2026.
-- Every Short stalls near 1-1.3k views: that is YouTube's first test batch. To be pushed further a Short needs
-  roughly 90%+ average view percentage (APV) plus likes/shares/comments.
-- Our APV was 40-70% on 30-58 s Shorts. Best: "Survived BOTH atomic bombs" 82% (29 s, hook = whole story);
-  "Alaska for 2 cents" 131% (people rewatched). Worst: slow openings with a date/place (dead jockey 44%, ketchup 46%).
-- Survival / record / "wait, what?" stories hold best. Country/anthem/Bangladesh history did ok in views but not APV.
-- Posting 11 in one night split the audience (several got 1-20 views). Owner decision 2026-11-19: two per day,
-  12 h apart (02:00Z and 14:00Z). Watch whether the 02:00Z slot gets fewer views or lowers the other Short's views.
-- New format from 2026-11-17: 13-18 s, hook in line 1, a fact every 2 s, unfinished last line that loops into line 1,
-  comment question in the description. First test: "He Was Struck by Lightning 7 Times" (x_A9aQBWRIY).
+Data: YouTube Analytics, last 28 days to 2026-11-23, 27 Shorts in the report (Nov 21-22 Shorts not in it yet).
 
-## 2026-11-22: why views are stuck, and the test
-- Data 2026-11-22: the new 13-18 s loops hold 88-91% APV but still stop at ~0.9-1.1k views (lightning 904, chicken 965, 33,000 ft 1058, iron rod 1142); dancing plague (02:00Z slot) only 197. Comments = 0 on every Short. Retention alone is not enough: we need shares + comments.
-- Owner decision 2026-11-22: test 3 topic lanes (dark mysteries, "would you survive?", money/scams/heists) and A/B the stick-story style against paper-atlas for 2 weeks (RUNBOOK 'Lanes and style test'). 3D styles cannot render in the cloud sandbox.
-- The 02:00Z slot looks weak (197 views vs ~1k): prefer 14:00Z.
+## The numbers
+- **Retention is solved, reach is not.** The 13-18 s loop Shorts hold the best APV the channel has had:
+  jungle fall 96% (886 views), lightning 91% (901), headless chicken 89% (961), 33,000 ft 86% (1,009),
+  dancing plague 82% (108). Older 30-58 s Shorts held 40-70%. Yet the loops still stop at ~0.9-1k views, the same
+  ceiling as the long ones (best long ones 1.1-1.3k).
+- **Engagement is the gap.** Loop Shorts get 4-13 likes and 0 shares each. The long story Shorts that reached
+  1.1-1.3k got 19-44 likes, and the only shares on the channel (Bangladesh storm 4, two anthems 3) came from long,
+  emotional/national stories. Subscribers gained: 0-2 per Short.
+- **Slot:** 02:00Z is clearly weak (dancing plague 108 views at 82% APV vs ~900 for 14:00Z loops). Keep 14:00Z.
+- Openings with a date/place still lose people (dead jockey 44%, ketchup 46%); hook = the whole fact in line 1 works.
+
+## What to do more / less of
+- Keep: 13-18 s, the full fact in line 1, a new fact every ~2 s, the unfinished last line that loops.
+- More: give people a reason to like/share/comment: an open question the viewer can answer (mysteries, "would you
+  survive?"), the on-screen LIKE · SHARE · SUBSCRIBE sticker (from 2026-11-23), and a question in the description.
+- Less: repeated "fell from a plane" survival stories (two in a row; spacing similar topics matters).
+- Avoid the 02:00Z slot unless the owner says otherwise.
+
+## Test running (owner decision 2026-11-22, until ~2026-12-06)
+- Topic lanes by publish day mod 3 (0 mysteries, 1 would-you-survive, 2 money/scams) and style by even/odd day
+  (stick-story vs paper-atlas). No lane-test Short has 7 days of data yet:
+  CU-uj2TLDLw [money/paper] publishes 2026-11-23, djo-iR9lMDQ [mystery/stick] 2026-11-24.
+- Compare on Monday 2026-11-30: views, APV, likes and shares per lane and per style. After 2 weeks keep the winners.
+- 3D styles cannot render in the cloud sandbox.
