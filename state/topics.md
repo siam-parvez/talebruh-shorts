@@ -10,7 +10,7 @@
 - [ ] Dyatlov Pass (1959): nine hikers cut their tent open from inside and fled into the snow (be respectful: they died; mention the 2021 avalanche study)
 
 ## Lane 1: Would you survive?
-- [ ] Buried in an avalanche: you have about 15 minutes before survival odds collapse (what rescuers say to do)
+- [x] Buried in an avalanche: you have about 15 minutes before survival odds collapse (what rescuers say to do)
 - [ ] Caught in a rip current: don't swim to shore, swim parallel (NOAA)
 - [ ] Fell through ice: the 1-10-1 rule for cold water (1 min to control breathing, 10 min of movement, 1 hour)
 - [ ] Quicksand: you can't actually sink all the way (Nature 2005 study); how to get out
