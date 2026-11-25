@@ -19,7 +19,7 @@
 
 ## Lane 2: Money / scams / heists
 - [x] Gregor MacGregor sold land in a country that did not exist (Poyais, 1820s)
-- [ ] Antwerp diamond heist (2003): vault with 10 layers of security, emptied over a weekend
+- [x] Antwerp diamond heist (2003): vault with 10 layers of security, emptied over a weekend
 - [ ] Gardner Museum heist (1990): about $500M of art stolen in 81 minutes, still missing, $10M reward
 - [ ] Mona Lisa stolen (1911): it only became the world's most famous painting after it vanished
 - [ ] 10,000 bitcoin for two pizzas (2010)
