@@ -3,7 +3,7 @@
 
 ## Lane 0: Dark mysteries
 - [x] Mary Celeste (1872): a ship found sailing on its own, cargo intact, all 10 people gone, never found
-- [ ] The Wow! signal (1977): a 72-second radio signal from space, never heard again
+- [x] The Wow! signal (1977): a 72-second radio signal from space, never heard again
 - [ ] Max Headroom hijack (1987, Chicago): someone took over two TV stations' broadcasts; never caught
 - [ ] Roanoke (1590): a whole colony vanished; the only clue was the word CROATOAN carved on a post
 - [ ] Voynich manuscript: a 600-year-old book in a writing nobody can read
