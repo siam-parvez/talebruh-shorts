@@ -11,7 +11,7 @@
 
 ## Lane 1: Would you survive?
 - [x] Buried in an avalanche: you have about 15 minutes before survival odds collapse (what rescuers say to do)
-- [ ] Caught in a rip current: don't swim to shore, swim parallel (NOAA)
+- [x] Caught in a rip current: don't swim to shore, swim parallel (NOAA)
 - [ ] Fell through ice: the 1-10-1 rule for cold water (1 min to control breathing, 10 min of movement, 1 hour)
 - [ ] Quicksand: you can't actually sink all the way (Nature 2005 study); how to get out
 - [ ] Lightning outside: why you should not shelter under a tree (NOAA)
